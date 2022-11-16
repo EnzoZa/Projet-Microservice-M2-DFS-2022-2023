@@ -1,0 +1,19 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(æ´û­
+N	java:S106"9Replace this use of System.out or System.err by a logger.(©€šÏ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(òÀÕª
+N	java:S106"9Replace this use of System.out or System.err by a logger.(©€šÏ
+S	java:S106""9Replace this use of System.out or System.err by a logger.(Ø†ğøÿÿÿÿ
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(©€šÏ
+U	java:S106*"9Replace this use of System.out or System.err by a logger.(´ëßÎ8í³Ì‰È0
+U	java:S106,"9Replace this use of System.out or System.err by a logger.(©€šÏ8î³Ì‰È0
+Z	java:S1062"9Replace this use of System.out or System.err by a logger.(«µ€Ëÿÿÿÿÿ8î³Ì‰È0
+U	java:S1064"9Replace this use of System.out or System.err by a logger.(©€šÏ8ï³Ì‰È0
+U	java:S106:"9Replace this use of System.out or System.err by a logger.(ûÕÜé8ì¿Î‰È0
+U	java:S106<"9Replace this use of System.out or System.err by a logger.(©€šÏ8í¿Î‰È0
+}
+java:S1192""[Define a constant instead of duplicating this literal "Getting Actor details for " 3 times.(Ø†ğøÿÿÿÿ8ï³Ì‰È0
+l
+java:S1192"VDefine a constant instead of duplicating this literal "Response Received as " 6 times.(©€šÏ
+r
+java:S1192%"UDefine a constant instead of duplicating this literal " :::  Actor Details " 3 times.(ÿ¶»Ô8ğ³Ì‰È0
