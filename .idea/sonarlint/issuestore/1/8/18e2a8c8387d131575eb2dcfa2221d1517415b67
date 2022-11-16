@@ -1,25 +1,0 @@
-
-S	java:S106"9Replace this use of System.out or System.err by a logger.(·¢”Œÿÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(©€šÏ
-c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñø©±
-S	java:S106"9Replace this use of System.out or System.err by a logger.(¦®Ø‘þÿÿÿÿ
-S	java:S106$"9Replace this use of System.out or System.err by a logger.(¯ùžŒþÿÿÿÿ
-N	java:S106)"9Replace this use of System.out or System.err by a logger.(©€šÏ
-S	java:S106/"9Replace this use of System.out or System.err by a logger.(“ø¬»ûÿÿÿÿ
-N	java:S1064"9Replace this use of System.out or System.err by a logger.(©€šÏ
-S	java:S106:"9Replace this use of System.out or System.err by a logger.(¨Àöíøÿÿÿÿ
-N	java:S106?"9Replace this use of System.out or System.err by a logger.(©€šÏ
-M	java:S106E"9Replace this use of System.out or System.err by a logger.(ËÎ·f
-N	java:S106J"9Replace this use of System.out or System.err by a logger.(©€šÏ
-U	java:S106P"9Replace this use of System.out or System.err by a logger.(“ÚÅû8»¡Ö‰È0
-U	java:S106U"9Replace this use of System.out or System.err by a logger.(©€šÏ8»¡Ö‰È0
-Z	java:S106["9Replace this use of System.out or System.err by a logger.(«éô¥øÿÿÿÿ8ø¿Ö‰È0
-U	java:S106`"9Replace this use of System.out or System.err by a logger.(©€šÏ8ù¿Ö‰È0
-v
-java:S1192"[Define a constant instead of duplicating this literal "Getting movie details for " 3 times.(·¢”Œÿÿÿÿÿ
-l
-java:S1192"VDefine a constant instead of duplicating this literal "Response Received as " 7 times.(©€šÏ
-}
-java:S1192:"[Define a constant instead of duplicating this literal "Getting actor details for " 4 times.(¨Àöíøÿÿÿÿ8½¡Ö‰È0
-q
-java:S1192K"UDefine a constant instead of duplicating this literal " :::  Actor Details " 3 times.(„›½8ü¿Ö‰È0

@@ -9,3 +9,13 @@
 Tsrc/test/java/com/example/springbootswagger2/SpringBootSwagger2ApplicationTests.java,8\5\8537da903e3b021e17d06d83f75e22238b1276df
 |
 Lsrc/main/java/com/example/mymovie/configuration/Swagger2UiConfiguration.java,d\6\d615834b118d700f4cc2d5fa86154cacb6ffb192
+p
+@src/main/java/com/example/mymovie/controller/FilmController.java,1\e\1ea5054ce04c65d6d41d31e0926f54d87fb2ff02
+c
+3src/main/java/com/example/mymovie/model/Acteur.java,4\c\4c77e4badcce71ff9c75cd154dd813b733608756
+a
+1src/main/java/com/example/mymovie/model/Film.java,1\a\1a9edd1bb417f06a3f7d0ba44dfac17beaf2cb35
+i
+9src/main/java/com/example/mymovie/MyMovieApplication.java,f\8\f8a46b55c7fffd06e2416569d2bc6cf0bc055b45
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
