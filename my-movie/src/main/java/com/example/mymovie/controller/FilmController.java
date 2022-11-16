@@ -16,13 +16,13 @@ public class FilmController {
 
 
     {
-        films.add(new Film("The_Godfather", "Francis Ford Coppola", "Marlon Brando", "1972"));
-        films.add(new Film("The Shawshank Redemption", "Frank Darabont", "Tim Robbins", "1994"));
-        films.add(new Film("The Dark Knight", "Christopher Nolan", "Christian Bale", "2008"));
-
         actors.add(new Acteur("Marlon", "Brando", "1924", ""));
         actors.add(new Acteur("Tim", "Robbins", "1958", ""));
         actors.add(new Acteur("Christian", "Bale", "1974", ""));
+
+        films.add(new Film("The_Godfather", "Francis Ford Coppola", actors.get(0), "1972"));
+        films.add(new Film("The Shawshank Redemption", "Frank Darabont", actors.get(1), "1994"));
+        films.add(new Film("The Dark Knight", "Christopher Nolan", actors.get(2), "2008"));
     }
 
     @ApiOperation(value = "Get all films", response = List.class)
@@ -42,7 +42,7 @@ public class FilmController {
     @ApiOperation(value = "Get films by title", response = List.class)
     @GetMapping("/films/title/{title}")
     public Film getFilmsByTitle(@PathVariable String title) {
-        Film film = new Film("", "", "", "");
+        Film film = new Film("", "", new Acteur("","","",""), "");
         for (Film f : films) {
             if (f.getTitle().equals(title)) {
                 film = f;
@@ -62,5 +62,34 @@ public class FilmController {
             }
         }
         return filmsByReleaseDate;
+    }
+
+    //update
+    @ApiOperation(value = "Update a film", response = List.class)
+    @PutMapping("/films/put/{title}")
+    public Film updateFilm(@PathVariable String title, @RequestBody Film film) {
+        for (Film f : films) {
+            if (f.getTitle().equals(title)) {
+                f.setTitle(film.getTitle());
+                f.setDirector(film.getDirector());
+                f.setMainActor(film.getMainActor());
+                f.setReleaseDate(film.getReleaseDate());
+            }
+        }
+        return film;
+    }
+
+    //delete
+    @ApiOperation(value = "Delete a film", response = List.class)
+    @DeleteMapping("/films/delete/{title}")
+    public Film deleteFilm(@PathVariable String title) {
+        Film film = new Film("", "", new Acteur("", "", "", ""), "");
+        for (Film f : films) {
+            if (f.getTitle().equals(title)) {
+                film = f;
+                films.remove(f);
+            }
+        }
+        return film;
     }
 }
